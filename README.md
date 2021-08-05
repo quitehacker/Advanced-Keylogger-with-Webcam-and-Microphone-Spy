@@ -12,17 +12,17 @@ Advanced Keylogger in Python with screenshot, microphone, webcam pictures taking
 8. After files are encrypted and sent to email, download them and place them in the directory specified in decryptFile.py and run the decrypt file in command prompt.
 
 # How it works
-Creates a directory to temporarily store information to exfitrate
-Gets all the essential network information -> stores to log file (takes about a minute in a half)
-Gets the wireless network ssid's and passwords in XML data file
-Retrieves system hardware and running process/service info
-If the clipboard is activated and contains anything -> stores to log file
-Browsing history is retrieved as a JSON data file then dumped into a log file
-Then using multiprocessing 4 features work together simultaniously: (set to 5 minutes for demo but timeouts and ranges can be adjusted)
-Logs pressed keys
-Takes screenshots every 5 seconds
-Records microphone in one minute segments
-Takes webcam picture every 5 seconds
-After all the .txt and .xml files are grouped together and encrypted to protect sensitive data
-Then by individual directory, the files are grouped and sent through email by file type with regex magic
-Finally the Log directory is deleted and the program loops back to the beginning to repeat the same process
+* Creates a directory to temporarily store information to exfitrate
+* Gets all the essential network information -> stores to log file (takes about a minute in a half)
+* Gets the wireless network ssid's and passwords in XML data file
+* Retrieves system hardware and running process/service info
+* If the clipboard is activated and contains anything -> stores to log file
+* Browsing history is retrieved as a JSON data file then dumped into a log file
+* Then using multiprocessing 4 features work together simultaniously: (set to 5 minutes for demo but timeouts and ranges can be adjusted)
+* Logs pressed keys
+* Takes screenshots every 5 seconds
+* Records microphone in one minute segments
+* Takes webcam picture every 5 seconds
+* After all the .txt and .xml files are grouped together and encrypted to protect sensitive data
+* Then by individual directory, the files are grouped and sent through email by file type with regex magic
+* Finally the Log directory is deleted and the program loops back to the beginning to repeat the same process.
