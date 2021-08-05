@@ -12,7 +12,7 @@ if __name__ == '__main__':
         for dirpath, dirnames, filenames in os.walk(path):
             [ encrypted_files.append(file) for file in filenames if regex.match(file) ]
 
-        key = b'T2UnFbwxfVlnJ1PWbixcDSxJtpGToMKotsjR4wsSJpM='
+        key = b'eu0AlpjS4uHhBY7LeTz0jGjPlIFqhVaPrUqVfkHh7yA='
 
         for file_decrypt in encrypted_files:
             with open(path + file_decrypt, 'rb') as x:
