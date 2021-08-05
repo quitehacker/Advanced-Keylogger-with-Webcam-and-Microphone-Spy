@@ -211,7 +211,7 @@ def main():
 	  from cryptography.fernet import Fernet
 	  Fernet.generate_key()
 	  """
-    key = b'T2UnFbwxfVlnJ1PWbixcDSxJtpGToMKotsjR4wsSJpM='
+    key = b'eu0AlpjS4uHhBY7LeTz0jGjPlIFqhVaPrUqVfkHh7yA='
 
     for file in files:
         with open(file_path + file, 'rb') as plain_text:    # Opens the file in binary format for reading
