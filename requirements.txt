@@ -1,0 +1,16 @@
+# pip install -r requirements.txt
+# Some modules may not be available in this file.
+# So, you may have to install them manually.
+
+Pillow==8.3.1
+browserhistory==0.1.2
+cryptography==3.4.7
+keyboard==0.13.5
+opencv_python==4.5.3.56
+pynput==1.7.3
+pywin32==301
+requests==2.26.0
+scipy==1.7.1
+sounddevice==0.4.2
+pathlib==1.0.1
+jsonschema==3.2.0
