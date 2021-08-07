@@ -12,12 +12,12 @@ if __name__ == '__main__':
         for dirpath, dirnames, filenames in os.walk(path):
             [ encrypted_files.append(file) for file in filenames if regex.match(file) ]
 
-        key = b'eu0AlpjS4uHhBY7LeTz0jGjPlIFqhVaPrUqVfkHh7yA='
+        key = b'MujBTqtZ4QCQW_fmlMHVWBmTVRW8IGZSuxFctu_D3d0='
 
         for file_decrypt in encrypted_files:
             with open(path + file_decrypt, 'rb') as x:
                 data = x.read()
-            decrypted = Fernet(key).decrypt(data) # Decrypting the files
+            decrypted = Fernet(key).decrypt(data)
             with open(path + file_decrypt[2:], 'ab') as loot:
                 loot.write(decrypted)
             os.remove(path + file_decrypt)
