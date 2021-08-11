@@ -1,7 +1,7 @@
 # Advanced Keylogger with Webcam and Microphone Spy
 Advanced Keylogger in Python with screenshot, microphone, webcam pictures taking capabilities and then send these files through email.
 
-## Installation
+## Installation & Running of this Keylogger
 1. [Download Python](https://www.python.org/downloads/) and [Install](https://www.w3schools.in/python-tutorial/install/) it.
 2. Make sure all the associated modules are installed. I've added all the modules in the [requirements.txt](https://github.com/rohitranaqh/Advanced-Keylogger-with-Webcam-and-Microphone-Spy/blob/main/requirements.txt) file.
 3. If any of the module is not in the requirements.txt file then open Command Prompt & type
