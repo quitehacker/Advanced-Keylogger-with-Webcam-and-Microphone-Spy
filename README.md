@@ -1,5 +1,5 @@
 # Advanced Keylogger with Webcam and Microphone Spy
-Advanced Keylogger in Python with screenshot, microphone, webcam pictures taking capabilities and then send these files through email.
+Advanced Keylogger in Python with screenshot, microphone, webcam pictures taking capabilities and also Collects Network/Wifi Info, System Info, Clipbaord Data, Browser History and then send these files through email.
 
 ## Installation & Running of this Keylogger
 1. [Download Python](https://www.python.org/downloads/) and [Install](https://www.w3schools.in/python-tutorial/install/) it.
